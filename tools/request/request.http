@@ -1,0 +1,11 @@
+### Search service
+### Get discovery service
+GET http://localhost:4100/discovery/services
+
+### Search products by LoadBalancerClient
+GET http://localhost:4100/search/load-balancer-client
+
+### Search products by @LoadBalanced rest template i.e ribbon interceptor
+GET http://localhost:4100/search/ribbon
+
+
